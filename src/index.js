@@ -6,7 +6,7 @@ import router from "./config/routes.js";
 import myConnection from "express-myconnection";
 import cors from 'cors'
 const app = express();
-const corsUrl = {origin: 'http://localhost:4200'};
+const corsUrl = {origin: '*'};
 
 // configuracion
 app.set('port', 3000);
